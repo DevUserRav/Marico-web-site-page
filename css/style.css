@@ -560,6 +560,9 @@ img {
     .dropdown_item:hover .dropdown {
         display: none;
     }
+    .dropdown_item img{
+        display: none;
+    }
     .nav a {
         color: #fff;
     }
