@@ -47,6 +47,8 @@ img {
 }
 .dropdown_item {
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 .dropdown_item img {
     margin-left: 6px;
@@ -555,9 +557,8 @@ img {
         row-gap: 20px;
         margin-bottom: 30px;
     }
-    .dropdown {
-        top: 0;
-        left: 120px;
+    .dropdown_item:hover .dropdown {
+        display: none;
     }
     .nav a {
         color: #fff;
