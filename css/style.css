@@ -538,6 +538,7 @@ img {
         background-color: #2f3640;
         justify-content: center;
         flex-direction: column;
+        z-index: 9999;
     }
     .header_options.show{
         right: 0;
